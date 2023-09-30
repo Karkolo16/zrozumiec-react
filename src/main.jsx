@@ -1,9 +1,12 @@
 import ReactDOM from "react-dom/client";
 import { LinkComponent } from "./components/Link";
-
+import { HeadingItalic } from "./components/HeadingItalic";
+import { Logger } from "./components/Logger";
 const element = (
   <>
-    <h1>Strona</h1>
+    <Logger>
+      <HeadingItalic>Nasza Strona</HeadingItalic>
+    </Logger>
     <main>
       <LinkComponent text="Sprawdź stronę kursu!" shouldOpenNewTab={true} />
       <p>
