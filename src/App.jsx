@@ -28,6 +28,7 @@ function App() {
       <PersonInfo person={janina} />
       <br />
       <PersonInfo person={karol} />
+      <img src="/dog.jpg" alt="" />
     </>
   );
 }
